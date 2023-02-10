@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "macro_test",
+    "clone_box"
+]
