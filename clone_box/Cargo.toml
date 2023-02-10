@@ -2,6 +2,11 @@
 name = "clone_box"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = ["clone", "cast", "trait-object", "oop", "dyn", "macro"]
+categories = ["accessibility", "rust-patterns"]
+description = "Simple convenience macro for casting to parent object-trait by cloning."
+repository = "https://github.com/sigurd4/clone_box"
 
 [lib]
 proc-macro = true
