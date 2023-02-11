@@ -65,7 +65,7 @@ fn clone_box_trait(mut item: syn::ItemTrait) -> TokenStream
         {
             fn clone(&self) -> Self
             {
-                self.clone_box()
+                <#ident>::clone_box(self)
             }
         }
     };
